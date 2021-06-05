@@ -1,19 +1,20 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
 {
 	"adaptive_dividers": true,
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Agila Theme/Agila Oceanic Next.tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 	"font_face": "Fira Code",
-	"font_size": 13,
+	"font_size": 14,
 	"gpu_window_buffer": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Python",
-		"Vintage"
+		"Markdown",
+		"Vintage",
 	],
 	"overlay_scroll_bars": "enabled",
 	"rulers":
@@ -27,18 +28,44 @@
 	"show_line_endings": false,
 	"show_panel_on_build": false,
 	"show_tab_close_buttons": false,
-	"theme": "ayu-dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
 	"trim_trailing_white_space_on_save": true,
 	"ui_native_titlebar": true,
-	"ui_separator": true,
+	"draw_indent_guides": true,
+	"ui_separator": false,
 	"ui_wide_scrollbars": false,
 	"word_wrap": true,
 	"wrap_width": 79,
 	"caret_extra_top": 1,
-    "caret_extra_bottom": 0,
-    "caret_extra_width": 2,
+	"caret_extra_bottom": 0,
+    	"caret_extra_width": 2,
 	"caret_style": "phase",
-	"highlight_line": false
+	"highlight_line": false,
+	"theme": "ayu-dark.sublime-theme",
+	"color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+	"material_theme_arrow_folders": true,
+	"material_theme_big_fileicons": true,
+	"material_theme_bold_tab": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_bullet_tree_indicator": true,
+	"material_theme_disable_tree_indicator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_titlebar": true,
+	"material_theme_accent_yellow": true,
+	"margin": 3,
+	"draw_centered": true,
+	"highlight_gutter": false,
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 }
