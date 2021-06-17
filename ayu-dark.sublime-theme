@@ -1,26 +1,11 @@
 [
   {
-    "class": "sidebar_label",
-    "font.face": "Fira Code"
-  },
-  {
-    "class": "sidebar_heading",
-    "font.face": "Fira Code"
-  },
-  {
-    "class": "tab_label",
-    "font.face": "Fira Code"
-  },
-  {
     "class": "label_control",
-    "font.face": "Fira Code"
+    "font.face": "Consolas" // Status bar font
   },
   {
-    "class": "quick_panel_label",
-    "font.face": "Fira Code"
-  },
-  {
-    "class": "quick_panel_path_label",
-    "font.face": "Fira Code"
+      "class": "title_bar",
+      "fg": [120, 115, 110], // Title text color
+      "bg": [9, 15, 22], // Titlebar background color
   }
 ]
