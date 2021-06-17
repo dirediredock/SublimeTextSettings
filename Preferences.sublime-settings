@@ -6,7 +6,7 @@
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 	"font_face": "Fira Code",
-	"font_size": 14,
+	"font_size": 13,
 	"gpu_window_buffer": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -37,12 +37,12 @@
 	"word_wrap": true,
 	"wrap_width": 79,
 	"caret_extra_top": 1,
-    	"caret_extra_bottom": 0,
-    	"caret_extra_width": 2,
+	"caret_extra_bottom": 0,
+	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"highlight_line": false,
 	"theme": "ayu-dark.sublime-theme",
-	"color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+	"color_scheme": "Packages/Vaporwave/Vaporwave.tmTheme",
 	"material_theme_arrow_folders": true,
 	"material_theme_big_fileicons": true,
 	"material_theme_bold_tab": true,
@@ -60,7 +60,9 @@
 	"font_options":
 	[
 		"gray_antialias",
-		"subpixel_antialias"
+		"subpixel_antialias",
+		"no_bold",
+		"no_italic",
 	],
 	"indent_guide_options":
 	[
