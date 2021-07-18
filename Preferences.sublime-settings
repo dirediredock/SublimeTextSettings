@@ -22,9 +22,9 @@
 	],
 	"indent_guide_options":
 	[
-        "draw_active",
-        "draw_normal",
-        "solid"
+		"draw_active",
+		"draw_normal",
+		"solid"
 	],
 	"scroll_past_end": true,
 	"show_encoding": false,
