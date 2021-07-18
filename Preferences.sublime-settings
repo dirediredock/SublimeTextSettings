@@ -6,7 +6,7 @@
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 	"font_face": "Fira Code",
-	"font_size": 13,
+	"font_size": 15,
 	"gpu_window_buffer": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -19,6 +19,12 @@
 	[
 		82,
 		-4
+	],
+	"indent_guide_options":
+	[
+        "draw_active",
+        "draw_normal",
+        "solid"
 	],
 	"scroll_past_end": true,
 	"show_encoding": false,
@@ -36,8 +42,8 @@
 	"ui_wide_scrollbars": false,
 	"word_wrap": true,
 	"wrap_width": 79,
-	"caret_extra_top": 1,
-	"caret_extra_bottom": 0,
+	"caret_extra_top": 0.5,
+	"caret_extra_bottom": -0.5,
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"highlight_line": false,
@@ -63,10 +69,5 @@
 		"subpixel_antialias",
 		"no_bold",
 		"no_italic",
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
 	],
 }
